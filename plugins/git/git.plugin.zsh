@@ -58,6 +58,14 @@ function git_develop_branch() {
 # (sorted alphabetically)
 #
 
+#############  MY ALIASES  #############
+function gshow () { 
+  cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh | grep --color "$1" 
+  }
+
+alias galias='gshow'
+
+
 alias g='git'
 
 alias ga='git add'
